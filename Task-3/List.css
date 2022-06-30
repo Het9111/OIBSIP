@@ -1,0 +1,131 @@
+.container{
+        display: flex;   
+}
+body{
+   background-color: rgb(255 140 140 / 55%);
+}
+.addList{
+    border: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 340px;
+    margin-left: 180px;
+    margin-top: 150px;
+    display: flexbox;
+    border-radius: 13px;
+    background-color: #298895;
+}
+.title{
+    border: 2px solid rgb(0, 0, 0);
+    width: 230px;
+    height: 40px;
+    margin: 10px 31px;
+    border-radius: 10px;
+    background-color: white;
+}
+.description{
+    border: 2px solid rgb(0, 0, 0);
+    width: 230px;
+    height: 100px;
+    margin: 10px 31px;
+    border-radius: 10px;
+    background-color: white;
+}
+input{
+    width: 180px;
+    height: 30px;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+button{
+    margin: 10px 105px;
+    padding: 2px 2px;
+    height: 30px;
+    width: 90px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 17px;
+}
+textarea{
+    width: 280px;
+    height: 100px;
+    margin: 5px 46px ; 
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.viewList{
+    width: 740px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table{ 
+    width: 710px;
+    height: 400px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.listTitle{
+    padding-block: 10px;
+    padding-inline: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: greenyellow;
+}
+.listDesc{    
+    padding-inline: 145px;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: greenyellow;
+}
+.delete{
+    padding-inline: 39px;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.deletebtn{    
+    padding-inline: 15px;
+    margin: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(253, 50, 50);
+}
+h1{
+    text-align: center;
+}
+#heading1{    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f9ff00;
+}
+#heading2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #bc2699;
+}
+.dataTitle,.dataDesc{
+    color: white;
+    height: 40px;
+    padding-left: 8px;
+    font-size: 19px;
+}
+tr{
+    background-color: grey;
+}
+#btn{
+    background-color: #2cff36;
+}
+#btn:hover{
+    background-color: #47e248;
+}
+#option{
+    color:red;
+    font-size: 20px;
+    margin: 32px 145px;
+}

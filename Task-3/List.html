@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Making Web App</title>
+    <link rel="stylesheet" href="List.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="addList">
+            <h1 id="heading1">Add New Notes</h1>
+            <input class="title" type="text" id="txtTitle" placeholder="Notes Title" />
+            <textarea class="description" id="txtDesc" type="textarea" placeholder="Notes Description"></textarea>
+            <button id="btn">Save</button>
+        </div>
+        <div class="viewList">
+            <h1 id="heading2">View Notes List</h1>
+            <div class="table">
+                <table id="notes">
+                    <tr>
+                        <td class="listTitle">Title</td>
+                        <td class="listDesc">Description</td>
+                        <td class="delete">Delete</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="List.js"></script>
+</html>
